@@ -9,7 +9,7 @@ Planejamento das sprints e estórias para a criação do website GamerXP.
 
 ![image](https://user-images.githubusercontent.com/90806965/133673166-29b36503-4251-42da-bb79-4a88cbf71709.png)
 
-![image](https://user-images.githubusercontent.com/90806965/133675234-2f750fd0-5706-4742-809d-506869ed3f0d.png)
+![image](https://user-images.githubusercontent.com/90806965/133675811-9661d16e-4fde-40f4-b611-5de48f8512cd.png)
 
 ![image](https://user-images.githubusercontent.com/90806965/133675598-0db38a00-d137-4b45-8b66-2e023125ffa2.png)
 
