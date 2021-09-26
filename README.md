@@ -13,7 +13,204 @@ Planejamento das sprints e estórias para a criação do website GamerXP.
 
 ![image](https://user-images.githubusercontent.com/90806965/133680474-2f6e74e6-3dd0-4536-8c58-486e3e8ba153.png)
 
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="style_vitrine virtual.css">
+        <title>.: Vitrine virtual GamerXP :.</title>
+    </head>
+    <body>
+        <header>
+            <!-- Barra de navegação-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">GamerXP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index_Quem%20somos.html">Quem somos</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Encontre uma categoria de produto
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Video-games.html">Video-games</a></li>
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Computadores.html">Computadores</a></li>
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Acess%C3%B3rios.html">Acessórios</a></li>
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Celulares.html">Celulares</a></li>
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Tablets.html">Tablets</a></li>
+                          <li><a class="dropdown-item" href="http://127.0.0.1:5500/index_Categoria_Teclados.html">Teclados</a></li>
+                        
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Seja bem-vindo à loja virtual de produtos da GamerXP</h1>
+                </div>
+            </div>
+        </div>
+        <div></div>
+        <div class=container>
+            <div class="row">
+                <!-- Para páginas grandes ou extra grandes - 4 produtos por linha
+                para páginas médias - 3 produtos por linha
+                Para páginas pequenas - 2 produtos por linha
+                Para páginas extra pequenas - 1 produto por linha-->
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card" >
+                        <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$native--t$" class="card-img-top" alt="..." width=100%>
+                        <div class="card-body">
+                          <h5 class="card-title">Playstation 4</h5>
+                          <p class="card-text">Console Playstation 4 preto</p>
+                          <h5>R$ 4500,00</h5>
+                          <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card" >
+                        <img src="https://tecnoblog.net/wp-content/uploads/2020/12/Xbox-One-500GBa-700x700.jpg" class="card-img-top" alt="..." width=100%>
+                        <div class="card-body">
+                          <h5 class="card-title">Xbox one</h5>
+                          <p class="card-text">Console Xbox one preto</p>
+                          <h5>R$ 2500,00</h5>
+                          <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card" >
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdT-sV3cR56MjoVwEP3vQ7zyCEKG6ctyw9VEWu96jlZtaMmQQghD9J5TVshpkcQBUAsxZEA30&usqp=CAc" class="card-img-top" alt="..." width=100%>
+                        <div class="card-body">
+                          <h5 class="card-title">Notebook</h5>
+                          <p class="card-text">Samsung Book - Windows 10 home - Intel Core i3 - 4GB - 256 GB de SSD - Cinza chumbo</p>
+                          <h5>R$ 3689,10</h5>
+                          <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <div class="card" >
+                        <img src="https://a-static.mlcdn.com.br/618x463/notebook-lenovo-ideapad3i-82bs0005br-intel-core-i5-8gb-256gb-ssd-156-lcd-windows-10/magazineluiza/135302600/8b52aec49b6fdba92b00e8c76bf3951d.jpg" class="card-img-top" alt="..." width=100%>
+                        <div class="card-body">
+                          <h5 class="card-title">Notebook</h5>
+                          <p class="card-text">Notebook Lenovo IdeaPad3i 82BS0005BR Intel Core i5 - 8GB 256GB SSD 15,6" LCD Windows 10</p>
+                          <h5>R$ 3149,10</h5>
+                          <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                        </div>
+                      </div>
+                </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://a-static.mlcdn.com.br/618x463/mouse-sem-fio-logitech-optico-1000dpi-3-botoes-m170-prata/magazineluiza/220817300/d5b36d0e263557ac670440915190c251.jpg" class="card-img-top" alt="..." width=50%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Mouse</h5>
+                                  <p class="card-text">Mouse sem fio Logitech Óptico 1000DPI 3 botões - M170 Prata</p>
+                                  <h5>R$ 54,90</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://a-static.mlcdn.com.br/618x463/pen-drive-32gb-multilaser-pendrive-10-anos-de-garantia/acmeeletronicos/pd589/37f03d42d512281772a674f5ec93b043.jpg" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Pendrive</h5>
+                                  <p class="card-text">Pen drive 32GB Multilaser</p>
+                                  <h5>R$ 50,00</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://static.netshoes.com.br/produtos/headphone-fire-fone-de-ouvido-bluetooth-estereo-sem-fio-com-microfone/08/1AT-0011-008/1AT-0011-008_zoom1.jpg?ts=1607597979&ims=544x" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Headphone</h5>
+                                  <p class="card-text">Headphone Fire Fone de Ouvido Bluetooth Estéreo Sem Fio com Microfone</p>
+                                  <h5>R$ 99,90</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://a-static.mlcdn.com.br/618x463/celular-samsung-galaxy-a32-128gb-octa-core-camera-quadrupla/gazinshop/9824/b87e1377a3d304ef717671fde7638147.jpg" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Celular</h5>
+                                  <p class="card-text">Celular Samsung Galaxy A32 128GB Octa Core Câmera Quádrupla - Galaxy A32 </p>
+                                  <h5>R$ 2630,88</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://cdnv2.moovin.com.br/redecelltronics/imagens/produtos/det/celular-apple-iphone-12-pro-max-256gb-46484c1321ebfbe5e309e3e84423814d.jpg" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Celular</h5>
+                                  <p class="card-text">Celular Apple Iphone 12 Pro Max 256GB </p>
+                                  <h5>R$ 10199,00</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://a-static.mlcdn.com.br/1500x1500/tablet-samsung-galaxy-tab-a-t290-32gb-8-wi-fi-android-9-0-quad-core-cam-8mp/magazineluiza/135265800/dbf4685f14c7a0c6e6a1fcbfc06a9105.jpg" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Tablet</h5>
+                                  <p class="card-text">Tablet Samsung Galaxy Tab A T290 32GB 8” Wi-Fi - Android 9.0 Quad Core Câm. 8MP </p>
+                                  <h5>R$ 949,05</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://www.techinn.com/f/13754/137543065/apple-tablet-ipad-pro-256gb-11.jpg" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Tablet</h5>
+                                  <p class="card-text">Apple Tablet iPad Pro 256GB 11'</p>
+                                  <h5>R$ 4649,50</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                            <div class="card" >
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_826537-MLA43977268687_112020-V.webp" class="card-img-top" alt="..." width=100%>
+                                <div class="card-body">
+                                  <h5 class="card-title">Teclado</h5>
+                                  <p class="card-text">Teclado sem fio Logitech K270 QWERTY cor preto </p>
+                                  <h5>R$ 200,00</h5>
+                                  <a href="http://127.0.0.1:5500/index_Produto_Playstation_4.html" class="btn btn-primary">Compre agora</a>
+                                </div>
+                              </div>
+                        </div>
+    </main>
+    
+    <footer>
+    
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>    
+</body>
+</html>
 
 
 
